@@ -1,0 +1,61 @@
+.heading{
+    text-align: center;
+    padding: 4rem 0 2rem 0;;
+}
+
+.project-cont{
+    max-width: 1600px;
+    margin:auto;
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 40px;
+    padding-bottom: 5rem;
+}
+
+.read-more{
+    border: none;
+    background: #1a1919;
+    color: grey;
+    text-decoration: underline;
+    padding-left: 0.5rem;
+    font-size: 1.1rem;
+}
+
+.project-card{
+    background: #1a1919;
+    padding: 1.2rem 1rem;
+}
+
+.project-card img{
+    height: 15rem;
+    width: 100%;
+}
+
+.Pro-Title{
+    color: white;
+    padding: 1rem 0;
+}
+
+.proDetails p{
+    padding: 1rem;
+    font-size: 1.1rem;
+    text-align: justify;
+}
+
+.ProButtons{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 0;
+}
+
+.ProButtons .btn{
+    padding: 0.5rem 1rem;
+}
+
+@media screen and (max-width:740px) {
+    .project-cont{
+        width: 100%;
+        margin:auto;
+        grid-template-columns: 1fr;
+    }
+}
