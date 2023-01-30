@@ -18,7 +18,6 @@ const Footer = () => {
           <div className="location">
             <FaHome size={28} className="icon Home" />
             <div>
-              <p className="paraG">A-215/16 Prem Nagar</p>
               <p className="paraG">Delhi, India</p>
             </div>
           </div>
