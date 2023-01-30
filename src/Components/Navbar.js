@@ -31,10 +31,10 @@ const Navbar = () => {
           <NavLink to="/projects">Projects</NavLink>
         </li>
         <li>
-          <NavLink to="/about">About Me</NavLink>
+          <NavLink to="/about">About</NavLink>
         </li>
         <li>
-          <NavLink to="/contact">Contact Me</NavLink>
+          <NavLink to="/contact">Contact</NavLink>
         </li>
       </ul>
       <div className="Hamburger" onClick={handleClick}>
