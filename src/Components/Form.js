@@ -4,7 +4,7 @@ const Form = () => {
   return (
     <div className='Form'>
         <form method="POST" action="mailto: kd14ka4@gmail.com"
-          enctype="text/plain" >
+          enctype="multipart/form-data" >
             <label for="name">Your Name</label>
             <input type="text" name="name" id="name"/>
             <label for="email">Email</label>
