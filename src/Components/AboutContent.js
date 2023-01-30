@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./AboutContentStyles.css";
 import { Link } from "react-router-dom";
 import react1 from "../assets/react2.webp";
-import react2 from "../assets/react2.jpg";
+import react2 from "../assets/react1.jpg";
 
 const AboutContent = () => {
   const text1 =
@@ -35,10 +35,10 @@ const AboutContent = () => {
       <div className="right">
         <div className="image-container">
           <div className="image-stack top">
-            <img src={react1} alt="none" />
+            <img src={react2} alt="none" />
           </div>
           <div className="image-stack bottom">
-            <img src={react2} alt="none" />
+            <img src={react1} alt="none" />
           </div>
         </div>
       </div>
