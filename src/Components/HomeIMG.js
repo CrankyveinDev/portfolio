@@ -11,7 +11,7 @@ const HomeIMG = () => {
         </div>
 
         <div className="Content">
-            <p>HI, I'M KAPIL DEV A PROGRAMMER AND</p>
+            <p>HI, I'M A PROGRAMMER AND</p>
             <h1>Full Stack {'\n'} Developer</h1>
             <div>
                 <Link className='btn' to="/Projects">Projects</Link>
