@@ -31,6 +31,11 @@
   display: none;
 }
 
+.active{
+  border-bottom: 2px solid #FFC93C;
+  border-radius: 3px;
+}
+
 @media screen and (max-width: 1040px) {
   .Nav-menu {
     flex-direction: column;
@@ -45,7 +50,7 @@
     z-index: -3;
     transition: 0.3s;
   }
-  .active{
+  .mobile{
     left: 0;
   }
   .Nav-menu li {

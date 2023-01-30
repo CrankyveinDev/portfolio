@@ -1,6 +1,6 @@
 import React from "react";
 import { useState } from "react";
-import { Link } from "react-router-dom";
+import {Link,NavLink } from "react-router-dom";
 import "./NavbarStyles.css";
 import {FaBars,FaTimes} from "react-icons/fa"
 
@@ -23,18 +23,18 @@ const Navbar = () => {
       <Link to="/">
         <h1>Kapil Dev</h1>
       </Link>
-      <ul className={click?"Nav-menu active":"Nav-menu"}>
+      <ul className={click?"Nav-menu mobile":"Nav-menu"}>
         <li>
-          <Link to="/">Home</Link>
+          <NavLink to="/">Home</NavLink>
         </li>
         <li>
-          <Link to="/projects">Projects</Link>
+          <NavLink to="/projects">Projects</NavLink>
         </li>
         <li>
-          <Link to="/about">About Me</Link>
+          <NavLink to="/about">About Me</NavLink>
         </li>
         <li>
-          <Link to="/contact">Contact Me</Link>
+          <NavLink to="/contact">Contact Me</NavLink>
         </li>
       </ul>
       <div className="Hamburger" onClick={handleClick}>
