@@ -11,7 +11,7 @@ const Project = () => {
       <HeroIMG2  heading="Projects" 
         para="Here are some of my recent work."
       />
-      <Work/>
+      <Work card="WorkData"/>
       <Footer/>
     </div>
   )

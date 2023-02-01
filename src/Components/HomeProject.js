@@ -1,15 +1,15 @@
 import React from 'react';
 import "./WorkCardStyles.css";
-import WorkData from "./WorkData"
 import WorkCard  from './WorkCard';
+import HomeCardData from './HomeCardData';
 
-const Work = (props) => {
+const Work = () => {
   return (
     <div className='work-container'>
         <h1 className="heading">Projects</h1>
         <div className="project-cont">
         {
-            WorkData.map((value,ind)=>{
+            HomeCardData.map((value,ind)=>{
                 return <WorkCard 
                     key={ind}
                     imgsrc={value.imgsrc}

@@ -2,13 +2,13 @@ import React from "react";
 import ResNavbar from "../Components/Navbar";
 import HomeIMG from "../Components/HomeIMG";
 import Footer from "../Components/Footer";
-import Work from "../Components/Work";
+import HomeProject from "../Components/HomeProject";
 function Home() {
   return (
     <>
       <ResNavbar />
       <HomeIMG />
-      <Work/>
+      <HomeProject/>
       <Footer />
     </>
   );

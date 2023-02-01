@@ -1,7 +1,6 @@
 import pro1 from "../assets/project1.png";
 import pro2 from "../assets/project2.png";
 import pro3 from "../assets/project3.png";
-import pro4 from "../assets/project4.png";
 
 const Data = [
   {
@@ -24,13 +23,6 @@ const Data = [
     description: "It is a platform with the goal of using augmented reality to teach users specific information about things like bodily parts, geometric shapes, and alphabets. With the use of this platform, I wish to modernize the way people learn things. What this platform offers is a variety of subsections, such as those for English, Math, Chemistry, and Biology. All of these sections operate under the same general premise, which involves scanning some of the designated markers that are mapped to specific 3D models. Therefore, a person simply needs a camera-enabled gadget, and depending on the selected section and marker, he can view a 3D model of that specific object. For its implementation, this platform makes use of Bootstrap, AR-Library, AR-Frame, and the GLTF or GLB model.",
     view: "https://learnerday.netlify.app/",
     source: "https://github.com/CrankyveinDev/Learnify",
-  },
-  {
-    imgsrc:pro4,
-    title:"portfolio",
-    description:"It is Project which you are viewing now. It's my first portfolio website which is completely made in react.js. The tech stack which has been used is react.js, CSS, React icons, Material UI, react hooks, mailto action of form. The purpose of this project is giving an better view of my skills and developing skills.",
-    view:"https://crankyvein.netlify.app/",
-    source:"https://github.com/CrankyveinDev/portfolio"
   },
 ];
 
