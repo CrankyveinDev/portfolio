@@ -15,7 +15,7 @@ const HomeIMG = () => {
             <h1>Full Stack {'\n'} Developer</h1>
             <div>
                 <Link className='btn' to="/Projects">Projects</Link>
-                <Link className='btn btn-light' to="/ContactUs">Contact</Link>
+                <Link className='btn btn-light' to="/contact">Contact</Link>
             </div>
         </div>
     </div>
